@@ -55,6 +55,8 @@
     </script>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css"/>
+
 </head>
 <body>
     <a href="#TextCV" id="skip-to-text" class="skip-to-text" aria-label="Aller au CV">Aller au CV</a>
@@ -63,10 +65,10 @@
         <div class="header-content">
             <div class="header-text">
                 <h1>Lucas Kaeufling</h1>
-                <p>Coder. Inventer. Optimiser.</p>
+                <p>Créer, optimiser, innover</p>
             </div>
             <div class="header-image">
-                <img src="profil_pictures.png" alt="Photo de profil du Portfolio me représentant moi même Lucas Kaeufling">
+                <img src="profil_pictures.png" alt="Photo de profil de Lucas Kaeufling" loading="lazy">
             </div>
         </div>
     </header>
@@ -129,49 +131,51 @@
 
         <div class="skills-categories">
 
-            <!-- Automatisme & Ladder -->
-            <div class="skill-category">
-                <h3>⚙️ Automatisme & Ladder</h3>
-                <ul>
-                    <li>✔️ Conception et programmation en <strong>Ladder</strong> (automates programmables)</li>
-                    <li>✔️ Utilisation de <strong>TIA Portal</strong> pour Siemens S7-1200/1500</li>
-                    <li>✔️ Modélisation de systèmes avec <strong>QElectrotech</strong></li>
-                    <li>✔️ Bases hardware en <strong>Automate Schneider</strong> (réseau d'automates professionnel)</li>
-                    <li>✔️ Logique séquentielle / Grafcet (API Siemens)</li>
-                </ul>
-            </div>
+        <!-- Python -->
+        <div class="skill-category">
+            <h3>🐍 Python</h3>
+            <ul>
+                <li>✔️ Scripts d'outils bas-niveau</li>
+                <li>✔️ Développement logiciel : mini-jeux, interfaces simples, formulaires</li>
+                <li>🟡 Développement avec <strong>FastAPI</strong> (projets de test)</li>
+                <li>🟡 Intégration IA locale avec <strong>LM Studio</strong> (capitalisation des compétences)</li>
+            </ul>
+        </div>
 
-            <!-- Microcontrôleurs / Arduino -->
-            <div class="skill-category">
-                <h3>💻 Microcontrôleurs / Arduino</h3>
-                <ul>
-                    <li>✔️ Développement en <strong>C / Arduino</strong> : éco-sytème de composants, trames de communication, prototypes</li>
-                    <li>✔️ Projets en <strong>Raspberry Pi</strong> pour interactions matérielles et scripts bas-niveau</li>
-                    <li>✔️ Conception d'un produit en cours (Arduino ou MicroPython)</li>
-                </ul>
-            </div>
+        <!-- Développement Web -->
+        <div class="skill-category">
+            <h3>🌍 Développement Web</h3>
+            <ul>
+                <li>✔️ HTML / CSS / JS pour interfaces simples (dashboards, formulaires)</li>
+                <li>✔️ Création d'interfaces web pour projets IA</li>
+                <li>✔️ Extension Chrome TrustNav : analyse de sites + scoring sécurité</li>
+            </ul>
+        </div>
 
-            <!-- Python -->
-            <div class="skill-category">
-                <h3>🐍 Python</h3>
-                <ul>
-                    <li>✔️ Scripts d'automatisation et outils bas-niveau</li>
-                    <li>✔️ Développement logiciel : mini-jeux, interfaces simples, formulaires</li>
-                    <li>🟡 Développement d'API avec <strong>FastAPI</strong> (projets de test)</li>
-                    <li>🟡 Intégration IA locale avec <strong>LM Studio</strong> (capitalisation des compétences)</li>
-                </ul>
-            </div>
+        <!-- Microcontrôleurs / Arduino -->
+        <div class="skill-category">
+            <h3>💻 Microcontrôleurs / Arduino</h3>
+            <ul>
+                <li>✔️ Développement en <strong>C / Arduino</strong> : écosystème de composants, trames de communication, prototypes</li>
+                <li>✔️ Projets en <strong>Raspberry Pi</strong> pour interactions matérielles et scripts bas-niveau</li>
+                <li>✔️ Conception d'un produit en cours (Arduino)</li>
+            </ul>
+        </div>
 
-            <!-- Développement Web -->
-            <div class="skill-category">
-                <h3>🌍 Développement Web</h3>
-                <ul>
-                    <li>✔️ HTML / CSS / JS pour interfaces simples (dashboards, formulaires)</li>
-                    <li>✔️ Création d'interfaces web pour projets IA</li>
-                    <li>✔️ Extension Chrome TrustNav : analyse de sites + scoring sécurité</li>
-                    <li>🟡 Intégration frontend ↔ backend via API Python</li>
-                </ul>
-            </div>
+         <!-- Automatisme & Ladder -->
+        <div class="skill-category">
+            <h3>⚙️ Automatisme & Ladder</h3>
+            <ul>
+                <li>✔️ Conception et programmation en <strong>Ladder</strong> (automates programmables)</li>
+                <li>✔️ Utilisation de <strong>TIA Portal</strong> pour Siemens S7-1200/1500</li>
+                <li>✔️ Modélisation de systèmes avec <strong>QElectrotech</strong></li>
+                <li>✔️ Bases hardware en <strong>Automate Schneider</strong> (réseau d'automates professionnel)</li>
+                <li>✔️ Logique séquentielle / Grafcet (API Siemens)</li>
+            </ul>
+        </div>
+
+
+            
 
             <!-- En apprentissage -->
             <div class="skill-category">
@@ -187,9 +191,42 @@
     </div>
 </section>
 
-
-
- 
+    <section id="stack" class="fade-in">
+        <div class="container">
+            <h2>🔭 Objectif technique</h2>
+            <p class="intro">
+            Technologies et domaines que je souhaite approfondir pour devenir un véritable appui technique.
+            </p>
+            <div class="skills-categories">
+            
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                <li>🐍 Approfondir Python (FastAPI) et Node.js (Express)</li>
+                <li>🤖 Intégrer et consolider mes compétences en IA dans les projets</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Frontend / Outils</h3>
+                <ul>
+                <li>💻 Approfondir HTML/CSS/JS et bases TypeScript</li>
+                <li>📱 Développer avec Flutter pour applications mobiles et interfaces modernes</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Données & Ops</h3>
+                <ul>
+                <li>📊 Développer mes compétences en PostgreSQL / SQLite et Pandas pour scripts et analyses</li>
+                <li>🐳 Utiliser Docker pour la conteneurisation et les déploiements</li>
+                <li>📈 Renforcer mon profil de data analyst</li>
+                </ul>
+            </div>
+            
+            </div>
+        </div>
+    </section>
 
     <!-- LOGICIELS & OUTILS -->
     <section id="software">
@@ -212,7 +249,7 @@
                 <div class="software-card">
                     <div class="software-icon">📄</div>
                     <h3>Bureautique & Design</h3>
-                    <p><span>Excel</span> • <span>Word</span> • <span>PowerPoint</span> • <span>Figma</span></p>
+                    <p><span>Excel</span> • <span>Word</span> • <span>PowerPoint</span> • <span>Base en Figma</span></p>
                 </div>
 
             </div>
@@ -226,9 +263,9 @@
 
             <div class="education-card">
                 <div class="education-header">
-                    <img class="img_education" src="Logo_IUT_HAGUENAU.png" alt="Photo du logo de l'établissement : IUT d'Haguenau">
+                    <img class="img_education" src="Photo_etude/Logo_IUT_HAGUENAU.png" alt="Photo du logo de l'établissement : IUT d'Haguenau">
                     <div class="education-text">
-                        <h3>BUT GEII – Automatisme & Informatique Industrielle</h3>
+                        <h3>BUT GEII - Automatisme & Informatique Industrielle</h3>
                         <p class="school">IUT d'Haguenau • 2023 - présent</p>
                     </div>
                 </div>
@@ -242,7 +279,7 @@
 
             <div class="education-card">
                 <div class="education-header">
-                    <img class="img_education" src="LOGO_STANISLAS.jpg" alt="Photo du logo de l'établissement : Lycée Stanislas">
+                    <img class="img_education" src="Photo_etude/LOGO_STANISLAS.jpg" alt="Photo du logo de l'établissement : Lycée Stanislas">
                     <div class="education-text">
                         <h3>Bac général - Option Maths, Physique et NSI</h3>
                         <p class="school">Lycée Stanislas-Wissembourg • 2020 - 2023</p>
@@ -278,6 +315,19 @@
                                 <li>Fournir un support technique aux franchisés et assistance hotline.</li>
                                 <li>Participer à des projets R&D : développement de formulaires interactifs et exploration d'IA avec JavaScript et Python (Pandas)</li>
                             </ul>
+                            <p> --------------------------</p>
+                            <ul class="experience-list">
+                                <li>Prototypage: 2 POC (Arduino/Python/ Raspberry Pi), dont 1 déployés en pilote.</li>
+                                <li>Qualité/traçabilité: standardisation des procédures et rapports (Pandas/Excel).</li>
+                            </ul>
+                            <div style="margin-top:8px;">
+                                <span class="icon_techno" style="background-color:#555;">Automatisme</span>
+                                <span class="icon_techno" style="background-color:#268bd2;">Arduino/C</span>
+                                <span class="icon_techno" style="background-color:#2aa198;">Python</span>
+                                <br>
+                                <span class="icon_techno" style="background-color:#6c71c4;">TIA Portal</span>
+                                <span class="icon_techno" style="background-color:#b58900;">Pandas/Excel</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -314,6 +364,60 @@
         </div>
     </section>
 
+    <div class="faq">
+        <h2 class="faq-title">🚀 Réalisations marquantes (contexte professionnel — anonymisées)</h2>
+
+        <button class="faq-q"><span class="faq-icon">+</span> Cas #1 — Diagnostic et remise en service d’armoires (multisites)</button>
+        <div class="faq-a">
+            <div class="faq-inner">
+                <div class="faq-content">
+                    <div class="faq-text">
+                        <ul class ="cas-list">
+                            <li><strong>Contexte :</strong> Dysfonctionnement récurrent détecté sur une carte électronique déployée sur plusieurs sites.</li>
+                            <li><strong>Actions :</strong> Analyse du bug, reproduction contrôlée du problème logiciel, puis proposition d’une correction auprès de l’équipe en charge du développement.</li>
+                            <li><strong>Résultats :</strong> Le taux d’occurrence du bug a été considérablement réduit.</li>
+                            <li><strong>Compétences mobilisées :</strong> <span class ="icon_techno" style="background-color: rgb(208, 22, 5);">Langage C</span> <span class ="icon_techno" style="background-color:grey;">Diagnostic</span> <span class ="icon_techno" style="background-color: grey ;">communication technique.</span> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="faq-q"><span class="faq-icon">+</span> Cas #2 — Développement d’un suivi énergétique sur IHM</button>
+        <div class="faq-a">
+            <div class="faq-inner">
+                <div class="faq-content">
+                    <div class="faq-text">
+                        <ul class="cas-list">
+                            <li><strong>Contexte :</strong> Besoin de visualiser en temps réel la consommation électrique et hydraulique des équipements, avec historique.</li>
+                            <li><strong>Actions :</strong> Réalisation d’un POC sous <strong>TIA Portal</strong> (automate Siemens S7-1200 / IHM TP900), intégration du stockage local, et conception d’une interface ergonomique adaptée aux opérateurs.</li>
+                            <li><strong>Résultats :</strong> L’application permet désormais de suivre les consommations sur une période de deux mois, facilitant les diagnostics et l’optimisation énergétique.</li>
+                            <li><strong>Compétences mobilisées :</strong> <span class ="icon_techno" style="background-color: rgb(18, 18, 246);">TIA PORTAL</span> <span class ="icon_techno" style="background-color: rgb(18, 18, 246);">LADDER</span> <span class ="icon_techno" style="background-color: rgb(18, 18, 246);">LIST</span> <span class ="icon_techno" style="background-color: rgb(18, 18, 246);">conception IHM</span>  <span class ="icon_techno" style="background-color:grey;">ergonomie utilisateur</span>  </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="faq-q"><span class="faq-icon">+</span> Cas #3 — Conception d’un produit innovant destiné aux clients</button>
+        <div class="faq-a">
+            <div class="faq-inner">
+                <div class="faq-content">
+                    <div class="faq-text">
+                        <ul class="cas-list">
+                            <li><strong>Contexte :</strong> Étude d’un dispositif de paiement dématérialisé nécessitant une approche de rétro-ingénierie et un développement sur mesure.</li>
+                            <li><strong>Actions :</strong> Réalisation d’un <strong>Proof of Concept</strong> fonctionnel, développement du prototype matériel et modélisation 3D du design du produit.</li>
+                            <li><strong>Résultats :</strong> Le POC validé a ouvert la voie à la phase de prototypage.</li>
+                            <li><strong>Compétences mobilisées :</strong> <span class ="icon_techno" style="background-color: #007B7F;">Arduino</span> <span class ="icon_techno" style="background-color: #98a537;">CAO</span> <span class ="icon_techno" style="background-color: grey;">conception produit</span> <span class ="icon_techno" style="background-color: grey;">documentation technique</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- SOFT SKILLS -->
     <section id="soft-skills">
         <div class="container fade-in">
@@ -342,7 +446,7 @@
 
                 <div class="skill-card">
                     <div class="skill-icon">💪</div>
-                    <p>Perseverance</p>
+                    <p>Persévérance</p>
                 </div>
             </div>
         </div>
@@ -357,31 +461,34 @@
                 <div class="project-card">
                     <img class="img_badge" src="projets/SecurNav.png" alt="Photo du logo de l'extension SecurNav">
                     <h3>SecurNav <span class="badge_en_cours">En cours</span></h3>
+                    <p><strong>Problème:</strong> analyser vite la sécurité d’un site. <br><strong>Solution:</strong> extension qui score en 1 clic (JavaScript). <br><strong>Résultat:</strong> Vous pouvez avoir un indice de fiabilité facilement</p>
                     <p>Extension web qui simplifie l'analyse de sécurité des sites en un clic.</p>
-                    <ul>
+                    <ul style ="padding: 30px;">
                         <li>Analyse en temps réel des sites visités</li>
                         <li>Score de sécurité avec recommandations pédagogiques</li>
                         <li>Interface intuitive avec pop-up et jauge circulaire</li>
                     </ul>
-                    <span class="icon_techno" style="background-color:#f16529;">HTML</span><span class="icon_techno" style="background-color:#1572B6;">CSS</span><span class="icon_techno" style="background-color:#F7DF1E;color:#000;">JS</span><span class="icon_techno" style ="background-color: rgb(206, 198, 43)">JSON</span>
+                    <span class="icon_techno" style="background-color:#f16529;">HTML</span><span class="icon_techno" style="background-color:#1572B6;">CSS</span><span class="icon_techno" style="background-color:#F7DF1E;color:#000;">JavaScript</span><span class="icon_techno" style ="background-color: rgb(206, 198, 43)">JSON</span>
                     <br>
-                    <a href="https://github.com/lucaskaefling/monprojet" target="_blank">Voir le code</a>
+                    <a href="https://github.com/lucaskaeufling/SecurNav" aria-label="Voir le code de SecurNav sur GitHub" target="_blank">Voir le code</a>
                 </div>
 
                 <div class="project-card">
                     <img class="img_badge" src="projets/Recallly.png" alt="Photo du logo du site Recallly">
                     <h3>Recallly <span class="badge_termine">Terminé</span></h3>
+                    <p><strong>Problème:</strong> Optimiser ses durées de révision <br><strong>Solution:</strong> générer des fiches de révision interactives en quelques clics. <br><strong>Résultat:</strong> Révision plus efficace.</p>
                     <p>Recallly permet aux étudiants de créer des fiches de révision interactives en quelques clics.</p>
-                    <span class="icon_techno" style="background-color:#f16529;">HTML</span><span class="icon_techno" style="background-color:#1572B6;">CSS</span><span class="icon_techno" style="background-color:#F7DF1E;color:#000;">JS</span><span class="icon_techno" style ="background-color: grey">API Mistral AI</span>
-                    <a href="https://github.com/lucaskaeufling/Studyboost/tree/main" target="_blank">Voir le code</a>
+                    <span class="icon_techno" style="background-color:#f16529;">HTML</span><span class="icon_techno" style="background-color:#1572B6;">CSS</span><span class="icon_techno" style="background-color:#F7DF1E;color:#000;">JavaScript</span><span class="icon_techno" style ="background-color: grey">API Mistral AI</span>
+                    <br> <a href="https://github.com/lucaskaeufling/Studyboost/tree/main" aria-label="Voir le code de Recallly sur GitHub" target="_blank">Voir le code</a>
                     <a href="https://recallly.onrender.com" target="_blank">Voir le site</a>
                 </div>
 
                 <div class="project-card">
                     <img class="img_badge" src="projets/ia_local.png" alt="Image d'illustration pour le projet Chatbot local">
-                    <h3>Chatbot local <span class="badge_en_cours">En cours</span></h3>
+                    <h3>Chatbot local <span class="badge_recherche">Recherche</span></h3>
+                    <p><strong>Problème:</strong> Accès à l'IA dans des PME encore difficile et coûteux. <br><strong>Solution:</strong> Capitaliser les connaissances internes à l'aide d'un chatbot local (Python). <br><strong>Résultat:</strong> Confidentialité totale et accès rapide.</p>
                     <p>Chatbot autonome utilisant vos fichiers pour générer des réponses via IA locale, 100% privé.</p>
-                    <span class ="icon_techno" style="background-color: rgb(2, 129, 2);">python</span><span class="icon_techno" style="background-color:#f16529;">HTML</span><span class="icon_techno" style="background-color:#1572B6;">CSS</span><span class="icon_techno" style="background-color:#F7DF1E;color:#000;">JS</span><span class="icon_techno" style ="background-color: grey">GPT OSS 20B</span>
+                    <span class ="icon_techno" style="background-color: rgb(2, 129, 2);">python</span><span class="icon_techno" style="background-color:#f16529;">HTML</span><span class="icon_techno" style="background-color:#1572B6;">CSS</span><span class="icon_techno" style="background-color:#F7DF1E;color:#000;">JavaScript</span><span class="icon_techno" style ="background-color: grey">GPT OSS 20B</span>
                 </div>
 
             </div>
@@ -394,28 +501,30 @@
             <h2>Compétences Linguistiques</h2>
             <div class="language-container">
                 <div class="language-card">
-                    <p>Français <img src="Flag_icon/france.png" alt="Drapeau français" class="flag"></p>
-                    <div class="language-bar">
-                        <div class="language-level" style="width: 100%;"></div>
-                    </div>
+                    <p>
+                        <span class="fi fi-fr flag"  alt="Drapeau Britannique"></span>
+                        <br>Français — Langue maternelle
+                    </p>
                 </div>
+
                 <div class="language-card">
-                    <p>Allemand <img src="Flag_icon/germany.png" alt="Drapeau Allemand" class="flag"></p>
-                    <div class="language-bar">
-                        <div class="language-level" style="width: 90%;"></div>
-                    </div>
+                    <p>
+                        <span class="fi fi-gb flag"  alt="Drapeau Britannique"></span>
+                        <br>Anglais — Niveau B1
+                    </p>
                 </div>
+
                 <div class="language-card">
-                    <p>Anglais <img src="Flag_icon/united-kingdom.png" alt="Drapeau Britanique" class="flag"></p>
-                    <div class="language-bar">
-                        <div class="language-level" style="width: 85%;"></div>
-                    </div>
+                    <p>
+                        <span class="fi fi-de flag"  alt="Drapeau Britannique"></span>
+                        <br>Allemand — Niveau B2 
+                    </p>
                 </div>
             </div>
         </div>
-        <p class ="credit_langage">Icônes de drapeaux provenant de <a href ="https:///flagicons.lipis.dev/" rel="noopener noreferrer" target="_blank"> Flag Icons</a> (MIT License)</p>
     </section>
 
+          
 
     <!-- À PROPOS -->
     <section id="about">
@@ -423,23 +532,23 @@
             <h2>👨 À propos</h2>
             <p>Passionné par l'informatique et les systèmes embarqués, j'aime concevoir des solutions concrètes et efficaces, où l'innovation rencontre la simplicité.</p>
             <p>Curieux et motivé, j'explore le développement logiciel et l'automatisme, en cherchant à progresser à chaque projet. La résolution de problèmes et l'optimisation sont au cœur de mon approche.</p>
-            
+            <br>
             <h2>🔥 Passions</h2>
             <div class="passions-photos">
                 <figure>
-                <img class="img_passion" src="Salle_de_sport.JPEG" alt="Photo représentant ma passion pour la salle de sport">
+                <img class="img_passion" src="passions/Salle_de_sport.JPEG" alt="Photo représentant ma passion pour la salle de sport">
                 <figcaption>Musculation</figcaption>
                 </figure>
                 <figure>
-                <img class="img_passion" src="formule 1.jpg" alt="Photo représentant ma passion pour la Formule 1">
+                <img class="img_passion" src="passions/formule 1.png" alt="Photo représentant ma passion pour la Formule 1">
                 <figcaption>Formule 1</figcaption>
                 </figure>
                 <figure>
-                <img class="img_passion" src="informatique.JPEG" alt="Photo représentant ma passion pour l'informatique">
+                <img class="img_passion" src="passions/informatique.JPEG" alt="Photo représentant ma passion pour l'informatique">
                 <figcaption>Informatique</figcaption>
                 </figure>
                 <figure>
-                <img class="img_passion" src="randonnee.JPEG" alt="Photo représentant ma passion pour la randonnée">
+                <img class="img_passion" src="passions/randonnee.JPEG" alt="Photo représentant ma passion pour la randonnée">
                 <figcaption>Randonnée</figcaption>
                 </figure>
             </div>
@@ -451,7 +560,7 @@
         <h2 class="faq-title">FAQ</h2>
             <button class="faq-q"><span class="faq-icon">+</span> Quels types de projets aimes-tu développer en priorité ?</button>
             <div class="faq-a">
-                <p>J'aime développer des projets très variés. Mon langage préféré reste Python, mais que ce soit à bas niveau ou haut niveau, ce qui me motive, c'est la sensation que me procure la programmation et la fierté lorsque le projet est terminé. Cela me permet de me rapprocher de mes convictions.</p>
+                <p>J'aime développer des projets très variés. Mon langage préféré reste Python, mais que ce soit en programmation bas-niveau ou haut-niveau, ce qui me motive, c'est la sensation que me procure la programmation et la fierté lorsque le projet est terminé. Cela me permet de me rapprocher de mes convictions.</p>
             </div>
 
             <button class="faq-q"><span class="faq-icon">+</span> Quels outils utilises-tu le plus souvent ?</button>
@@ -496,6 +605,8 @@
 
     </div>
 
+    
+
     <!-- CONTACT -->
     <section id="contact">
         <div class="container fade-in">
@@ -509,31 +620,7 @@
                     <p>Email : <a href="mailto:lucas.kaeufling@orange.fr">lucas.kaeufling@orange.fr</a></p>
                     <p>Téléphone : <a href="tel:+33771826382">+33 7 71 82 63 82</a></p>
                 </div>
-                <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" novalidate>
-                    <label for="cf-name">Nom *</label>
-                    <input id="cf-name" name="name" type="text" required>
-
-                    <label for="cf-email">Email *</label>
-                    <input id="cf-email" name="email" type="email" required>
-
-                    <label for="cf-subject">Sujet</label>
-                    <input id="cf-subject" name="subject" type="text">
-
-                    <label for="cf-message">Message *</label>
-                    <textarea id="cf-message" name="message" rows="6" required></textarea>
-
-                    <div style="margin:10px 0;">
-                        <input id="cf-consent" name="consent" type="checkbox" required>
-                        <label for="cf-consent" style="display:inline;">J'accepte que mes données soient utilisées pour répondre à ma demande (voir <a href="privacy.html" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>).</label>
-                    </div>
-
-                    <button class="button" type="submit">
-                        Envoyer
-                    </button>
-
-                    <p class="form-success" aria-live="polite" style="display:none;color:var(--accent);margin-top:12px;">Merci — votre message a été envoyé.</p>
-                    <p class="form-error" aria-live="polite" style="display:none;color:#d9534f;margin-top:12px;">Erreur lors de l'envoi. Réessayez plus tard.</p>
-                </form>
+                
 
                 <div class="contact-socials"> <a href="https://www.linkedin.com/in/lucas-kaeufling-6075202a1/?originalSubdomain=fr" target="_blank" title="LinkedIn"> <img src="icons_contact/LinkedIn.png" alt="Photo représentant le logo de LinkedIn"> </a> <a href="https://github.com/lucaskaeufling" target="_blank" title="GitHub"> <img src="icons_contact/github.png" alt="Photo représentant le logo de GitHub"> </a> </div>                </div>
              </div>

@@ -87,26 +87,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const toggle = document.querySelector('.switch .input');
 const root = document.documentElement;
-
-// vérifier le thème enregistré
 let saved = localStorage.getItem('theme');
-
-if (!saved) {
-  // pas de thème enregistré => détecter la préférence système
-  saved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-}
-
-// appliquer le thème
+if (!saved) { saved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
 root.setAttribute('data-theme', saved);
-toggle.checked = saved === 'dark';
-
-// gestion du switch
-toggle.addEventListener('change', () => {
-  const theme = toggle.checked ? 'dark' : 'light';
-  root.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme);
-});
-
+if (toggle) {
+  toggle.checked = saved === 'dark';
+  toggle.addEventListener('change', () => {
+    const theme = toggle.checked ? 'dark' : 'light';
+    root.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  });
+}
 
 
 function animateCounter(el, target, duration=1200){
@@ -141,8 +132,8 @@ document.querySelectorAll('.faq-q').forEach(btn=>{
 
 function downloadCV() {
     const link = document.createElement("a");
-    link.href = "CV/Lucas_KAEUFLING_CV_2025.pdf";   // chemin vers ton CV
-    link.download = "CV_Lucas.pdf"; // nom du fichier au téléchargement
+    link.href = "CV/LucasKaeuflingCV.pdf";   // chemin vers ton CV
+    link.download = "LucasKAEUFLING_CV.pdf"; // nom du fichier au téléchargement
     link.click();
 }
 
