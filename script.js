@@ -139,14 +139,14 @@ function downloadCV() {
 
 function downloadCV_Deutsch() {
     const link = document.createElement("a");
-    link.href = "CV/LucasKaeuflingCV_DE.pdf";   // chemin vers ton CV
+    link.href = "https://lucaskaeufling.github.io/Portfolio/CV/LucasKaeuflingCV_DE.pdf";   // chemin vers ton CV
     link.download = "LucasKAEUFLING_Lebenslauf.pdf"; // nom du fichier au téléchargement
     link.click();
 }
 
 function downloadCV_English() {
     const link = document.createElement("a");
-    link.href = "CV/LucasKaeuflingCV_EN.pdf";   // chemin vers ton CV
+    link.href = "https://lucaskaeufling.github.io/Portfolio/CV/LucasKaeuflingCV_EN.pdf";   // chemin vers ton CV
     link.download = "LucasKAEUFLING_CV.pdf"; // nom du fichier au téléchargement
     link.click();
 }
