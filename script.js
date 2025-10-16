@@ -137,6 +137,20 @@ function downloadCV() {
     link.click();
 }
 
+function downloadCV_Deutsch() {
+    const link = document.createElement("a");
+    link.href = "CV/LucasKaeuflingCV_DE.pdf";   // chemin vers ton CV
+    link.download = "LucasKAEUFLING_Lebenslauf.pdf"; // nom du fichier au téléchargement
+    link.click();
+}
+
+function downloadCV_English() {
+    const link = document.createElement("a");
+    link.href = "CV/LucasKaeuflingCV_EN.pdf";   // chemin vers ton CV
+    link.download = "LucasKAEUFLING_CV.pdf"; // nom du fichier au téléchargement
+    link.click();
+}
+
 const block = document.getElementById('CV_BLOCK');
 const txtCV = document.getElementById('TextCV');
 const offsetTop = block.offsetTop - 100; // position initiale
